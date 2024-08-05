@@ -1,0 +1,156 @@
+<!-- Task 8
+Make your own design for html with CSS 
+include CSS Display Property and Over Flow property -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 8</title>
+
+<style>
+  * {
+    margin: 0;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    background-color:antiquewhite;
+    color: black;
+    padding: 20px;
+    justify-content: space-between;
+  }
+  nav{
+    margin-right: 100px;
+  }
+  nav ul li {
+    display: inline;
+  }
+  nav ul li a {
+    font-size: large;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: black;
+  }
+  nav ul li a:hover {
+    background-color:black;
+    color:antiquewhite;
+  }   
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+.body2{
+  padding: 30PX;
+}
+article{
+  display: flex;
+  margin: 10px;
+  gap: 10px;
+}
+p1, p2, p3, p4{  
+  background-color:antiquewhite;
+  color: black;
+  padding: 15px;
+  border-radius: 10px;
+  width: 50%;
+  height: 100px;
+  border: 1px solid #ccc;
+}
+p1{
+  overflow: visible;
+}
+p2{
+  overflow: hidden;
+}
+p3{
+  overflow: scroll;
+}
+p4{
+  overflow: auto;
+}
+  .np a {
+    position:relative;
+    bottom: -20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: black;
+  }
+  .np a:hover {
+    background-color:antiquewhite;
+    color:black;
+  } 
+  footer {
+    position:relative;
+    bottom: -20px;
+    padding: 20px;
+    background-color: antiquewhite;
+    color: black;
+  }
+</style>    
+</head>
+<body>
+
+  <header>
+  <h1>Front End Development Task 8</h1>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="task7.html">Previous</a></li>
+        <li><a href="task9.html">Next</a></li>
+      </ul>
+    </nav>
+  </header> 
+
+<img src="https://i.pinimg.com/564x/42/3b/97/423b97b41c8b420d28e84f9b07a530ec.jpg" alt="">  
+
+<div class="body2">
+
+<h2>Display & Over Flow property</h2><br>
+<Article>
+  <p1><h3>Visible</h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo porro itaque eaque! Deleniti ea illo, nemo tempora ullam velit provident id assumenda explicabo facilis est commodi doloremque necessitatibus, autem quia!</p1>
+  
+  <p2><h3>Hidden</h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis non odio eos asperiores quo necessitatibus veritatis repudiandae laborum nemo reprehenderit, odit, hic quae modi impedit architecto deserunt officia, nobis facere?</p2>
+  
+  <p3><h3>Scroll</h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate ex quaerat at incidunt cupiditate? Eaque, saepe qui ipsam laboriosam doloribus velit earum harum veniam rem sequi illo amet, aspernatur eius!</p3>
+  
+  <p4><h3>Auto</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, optio officiis perspiciatis aperiam veritatis natus in ipsa, sed rerum, cupiditate eum tempora adipisci maiores asperiores? Sed quam modi minus pariatur.</p4>
+</Article>  
+</div><br><br><br>
+
+<div class="np" style="text-align: center;">
+  <a href="home.html">Home</a>
+  <a href="task1.html">1</a>
+  <a href="task2.html">2</a>
+  <a href="task3.html">3</a>
+  <a href="task4.html">4</a>
+  <a href="task5.html">5</a>
+  <a href="task6.html">6</a>
+  <a href="task7.html">7</a>
+  <a href="task8.html">8</a>
+  <a href="task9.html">9</a>
+  <a href="task10.html">10</a>
+  <a href="task11.html">11</a>
+  <a href="task12.html">12</a>
+  <a href="task13.html">13</a>
+  <a href="task14.html">14</a>
+  <a href="task15.html">15</a>
+  <a href="task16.html">16</a>
+  <a href="task17.html">17</a>
+  <a href="task18.html">18</a>
+  <a href="task19.html">19</a>
+  <a href="task20.html">20</a>
+  </div><br/><br/>
+      
+  <footer style="text-align: center;">&copy; 27-07-2024 Muhammad Rasool. All Rights Reserved.</footer>
+
+</body>
+</html>

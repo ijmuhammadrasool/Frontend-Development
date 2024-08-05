@@ -1,0 +1,170 @@
+<!-- Task 6
+Make your own design for html with CSS 
+include colors and gradient, background property  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 6</title>
+    <style>
+        * {
+        margin: 0;
+        font-weight: bolder;
+        text-decoration: none;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      }
+      body{
+        background-color: blanchedalmond;
+      }
+      .body2 {
+        padding: 10px;
+      }
+        header {
+        display: flex;
+        align-items: center;
+        background:linear-gradient(90deg, rgb(192, 9, 9)0%, rgb(2, 107, 2)50%, rgb(10, 10, 206)100%);
+        color: white;
+        padding: 20px;
+        justify-content: space-between;
+      }
+      nav {
+        margin-right: 100px;
+      }
+      nav ul li {
+        display: inline;
+      }
+      nav ul li a {
+        font-size: large;
+        padding: 10px 15px;
+        border-radius: 5px;
+        color: white;
+      }
+      nav ul li a:hover {
+        background-color:white;
+        color:black;
+      }
+      aside{
+        display: inline-flex;
+      }
+      .aside1{
+        box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+        background-color:orangered;
+        padding: 20px;
+        color: white;
+        border-radius: 10px;
+        margin: 10px;
+      }
+      .aside2{
+        box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+        background-color:green;
+        padding: 20px;
+        color: white;
+        border-radius: 10px;
+        margin: 10px;
+      }
+      .aside3{
+        box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+        background-color:blue;
+        padding: 20px;
+        color: white;
+        border-radius: 10px;
+        margin: 10px;
+      }
+      .article2{
+        color: white;
+        padding: 20px;
+        border-radius: 10px;
+        background: linear-gradient(90deg, rgb(22, 22, 22)0%, rgb(0, 78, 0)50%, rgb(55, 56, 102)100% );
+      }
+      .np a {
+    position:relative;
+    background-color:brown;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: black;
+  }
+  .np a:hover {
+    background-color:rgb(0, 78, 0);
+    color: white;
+  }
+  footer{
+    background: linear-gradient(90deg, rgb(10, 10, 206)0%, rgb(2, 107, 2)50%, rgb(192, 9, 9)100%);
+    padding: 20px;
+    color: white;
+  }
+</style>
+</head>
+<body>
+    <header>
+      <h1>Front End Development Task 6</h1>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="task5.html">Previous</a></li>
+          <li><a href="task7.html">Next</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="body2">
+    
+    <h2>Colors</h2>
+    ------------
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum reprehenderit, suscipit error sapiente architecto, temporibus consequatur nam placeat dignissimos eligendi perspiciatis aspernatur iste, dolorum vel eius alias odio quae natus.</p>
+    <br>
+    <aside>
+      <div class="aside1">
+      <h3>rgb (Red Green Blue)</h3>
+      ------------------------------      
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur unde omnis natus nobis aliquam modi deserunt earum! Ipsam earum excepturi adipisci esse pariatur? Hic provident dolores voluptatum perspiciatis in impedit?</p>
+    </div>
+    
+    <div class="aside2">
+      <h3>hex (Hexadecimal)</h3>
+      --------------------------
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero laudantium ut fuga quis porro eum itaque animi? Laboriosam, ab. Voluptates veniam sint officiis aut consequatur voluptatum, tempora vitae veritatis! Quibusdam.</p>
+    </div>
+    
+    <div class="aside3">
+      <h3>hsl (hue, saturation, lightness)</h3>
+      ------------------------------------------
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, aliquid accusantium. Praesentium temporibus nihil dicta assumenda. Perspiciatis natus dolor tenetur, alias nihil, ipsa quia iste voluptas suscipit fugit autem soluta.</p>
+    </div>
+  </aside><br><br><br>
+  <div class="article2">
+    <h3>Gradient</h3>
+    -------------
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, perspiciatis. Doloremque saepe dolor consectetur suscipit, sunt totam deserunt eos dicta sint, libero expedita facilis incidunt odit distinctio. Doloribus, deleniti voluptates.</p>
+  </div><br><br>
+
+    <div class="np" style="text-align: center;">
+        <a href="home.html">Home</a>
+        <a href="task1.html">1</a>
+        <a href="task2.html">2</a>
+        <a href="task3.html">3</a>
+        <a href="task4.html">4</a>
+        <a href="task5.html">5</a>
+        <a href="task6.html">6</a>
+        <a href="task7.html">7</a>
+        <a href="task8.html">8</a>
+        <a href="task9.html">9</a>
+        <a href="task10.html">10</a>
+        <a href="task11.html">11</a>
+        <a href="task12.html">12</a>
+        <a href="task13.html">13</a>
+        <a href="task14.html">14</a>
+        <a href="task15.html">15</a>
+        <a href="task16.html">16</a>
+        <a href="task17.html">17</a>
+        <a href="task18.html">18</a>
+        <a href="task19.html">19</a>
+        <a href="task20.html">20</a>
+      </div>
+      <br/><br/>
+      </div>
+      <footer style="text-align: center;">&copy; 25-07-2024 Muhammad Rasool. All Rights Reserved.</footer>
+</body>
+</html>
